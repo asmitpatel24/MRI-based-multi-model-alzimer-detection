@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# PyTorch / ML artifacts
+*.pth
+*.keras
+*.pt
+
+# Training/plots/logs
+training_history.png
+confusion_matrix.png
+gpu_status.txt
+counts_out.json
+
+# Data (very large)
+data/
+
+# FastAPI / env files
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend (Next.js)
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+
+# VSCode
+.vscode/
+
+# Misc
+*.log
+
