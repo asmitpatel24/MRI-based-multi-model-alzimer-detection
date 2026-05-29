@@ -52,7 +52,7 @@ The model implements a dual-branch feature extraction strategy:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 alzimer model/
@@ -97,7 +97,7 @@ python train.py --epochs 10 --ft-epochs 20 --batch-size 8
 
 ---
 
-## 📊Results & Performance
+## Results & Performance
 The training pipeline automatically generates:
 - `training_history.png`: Accuracy/Loss curves.
 - `confusion_matrix.png`: Per-class model performance.
