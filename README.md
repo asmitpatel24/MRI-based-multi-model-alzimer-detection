@@ -1,8 +1,9 @@
-# 🧠 Alzheimer's Disease MRI Classifier (SOTA Hybrid Architecture)
+Repo. -> Master Branch
+# Alzheimer's Disease MRI Classifier (SOTA Hybrid Architecture)
 
 Detect Alzheimer's disease stages from brain MRI scans using a state-of-the-art **Hybrid ConvNeXt + Swin Transformer** deep learning model. The project leverages a robust consortium of datasets including **ADNI, OASIS-3, and AIBL** for extensive training and robust generalization.
 
-## 🚀 Key Features
+## Key Features
 
 - **Hybrid Architecture:** Fuses the spatial detail of **ConvNeXt (CNN)** with the global contextual awareness of **Swin Transformer**.
 - **Modern Tech Stack:** Built with **PyTorch**, **FastAPI**, and **Next.js**.
@@ -11,7 +12,7 @@ Detect Alzheimer's disease stages from brain MRI scans using a state-of-the-art 
 
 ---
 
-## 🏗️ Architecture & Models
+## Architecture & Models
 
 The model implements a dual-branch feature extraction strategy:
 
@@ -27,7 +28,7 @@ The model implements a dual-branch feature extraction strategy:
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Artificial Intelligence & Machine Learning
 - **PyTorch:** Core deep learning framework.
@@ -67,7 +68,7 @@ alzimer model/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Requirements
 Ensure you have Python 3.13 and Node.js installed.
@@ -96,7 +97,7 @@ python train.py --epochs 10 --ft-epochs 20 --batch-size 8
 
 ---
 
-## 📊 Results & Performance
+## 📊Results & Performance
 The training pipeline automatically generates:
 - `training_history.png`: Accuracy/Loss curves.
 - `confusion_matrix.png`: Per-class model performance.
